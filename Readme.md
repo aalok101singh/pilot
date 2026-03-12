@@ -1,6 +1,6 @@
-# Pilot – AI Support Studio (MVP)
+# Pilot – AI Agent Engineers
 
-This is a minimal full-stack MVP for **Pilot**, a SaaS dashboard for managing AI support agents.
+This is a minimal full-stack MVP for **Pilot**.
 
 ## Tech stack
 
@@ -12,6 +12,13 @@ This is a minimal full-stack MVP for **Pilot**, a SaaS dashboard for managing AI
 ## Getting started
 
 ### 1. Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+
+### 2. Frontend
 
 ```bash
 cd backend
