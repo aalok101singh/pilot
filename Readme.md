@@ -9,18 +9,4 @@ This is a minimal full-stack MVP for **Pilot**.
 - Database: Supabase (PostgreSQL) – schema provided, mocked in code
 - Deployment target: Vercel (frontend), any Node host for backend
 
-## Getting started
 
-### 1. Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-
-### 2. Frontend
-
-```bash
-cd backend
-npm install
-npm run dev
