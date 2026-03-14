@@ -5,8 +5,7 @@ import {
   aiBehavior,
   securitySettings
 } from '../data/mockData.js';
-
-const router = express.Router();
+uter = express.Router();
 
 // GET /api/settings
 router.get('/', async (_req, res) => {
