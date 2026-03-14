@@ -6,8 +6,7 @@ const router = express.Router();
 // GET /api/marketplace
 router.get('/', async (_req, res) => {
   // TODO: Fetch marketplace agents from Supabase or external catalog.
-  res.json(marketplaceAgents);
-});
+  res.js//for escalation attempt
 
 // POST /api/marketplace/:id/install
 router.post('/:id/install', async (req, res) => {
