@@ -6,7 +6,7 @@ import Badge from '../components/ui/Badge';
 import StatusDot from '../components/ui/StatusDot';
 import PageHeader from '../components/dashboard/PageHeader';
 import { api } from '../lib/api';
-import { MetricsResponse, Agent, Escalation } from '../lib/types';
+import { Metr
 
 const DashboardPage = () => {
   const [metrics, setMetrics] = useState<MetricsResponse | null>(null);
