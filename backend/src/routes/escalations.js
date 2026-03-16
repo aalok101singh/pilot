@@ -1,11 +1,7 @@
 import express from 'express';
 import { escalations } from '../data/mockData.js';
 
-const router = express.Router();
-
-// GET /api/escalations
-router.get('/', async (_req, res) => {
-  // TODO: Fetch escalations from Supabase "escalations" table.
+const router = express.Router(); TODO: Fetch escalations from Supabase "escalations" table.
   res.json(escalations);
 });
 import tryingtogetanescalation 
