@@ -11,15 +11,7 @@ router.get('/sources', async (_req, res) => {
 
 // POST /api/database/sources
 router.post('/sources', async (req, res) => {
-  const payload = req.body;
-  // TODO: Insert new data source and trigger ingestion in Pilot QA.
-  console.log('[DATA SOURCE CREATE STUB]', payload);
-  res.status(201).json({
-    ...payload,
-    id: `ds-${Date.now()}`,
-    status: 'pending'
-  });
-});
+  const p
 
 // POST /api/database/sources/:id/sync
 router.post('/sources/:id/sync', async (req, res) => {
