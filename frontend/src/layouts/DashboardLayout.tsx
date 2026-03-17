@@ -4,12 +4,7 @@ import Sidebar from '../components/layout/Sidebar';
 import Topbar from '../components/layout/Topbar';
 
 interface Props {
-  children: ReactNode;
-}
 
-const DashboardLayout = ({ children }: Props) => {
-  const location = useLocation();
-  const navigate = useNavigate();
 
   return (
     <div className="flex h-screen bg-background text-textPrimary">
