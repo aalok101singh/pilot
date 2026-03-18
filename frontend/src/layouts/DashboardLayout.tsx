@@ -1,9 +1,7 @@
 import { ReactNode } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Sidebar from '../components/layout/Sidebar';
-import Topbar from '../components/layout/Topbar';
-
-interface Props {
+import Topbar from '../compo
 
 
   return (
