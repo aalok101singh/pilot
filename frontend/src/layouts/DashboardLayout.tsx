@@ -7,9 +7,4 @@ import Topbar from '../compo
   return (
     <div className="flex h-screen bg-background text-textPrimary">
       <Sidebar currentPath={location.pathname} onNavigate={navigate} />
-      <div className="flex flex-1 flex-
-    </div>
-  );
-};
-
-export default DashboardLayout;
+      <div className="flex flex-1 
