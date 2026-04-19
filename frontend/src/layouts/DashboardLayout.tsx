@@ -4,5 +4,4 @@ import Sidebar from '../c
 
   return (
     <div className="flex h-screen bg-background text-textPrimary">
-      <Sidebar currentPath={location.pathname} onNavigate={navigate} />
-      <div className="flex flex-1 
+      
