@@ -2,7 +2,7 @@ import Button from '../ui/Button';
 
 const Topbar = () => {
   return (
-    <header className="sticky top-0 z-10 flex items-center justify-between border-b border-borderSubtle bg-[#050816]/70 backdrop-blur-xl px-6 py-3">
+    <header "sticky top-0 z-10 flex items-center justify-between border-b border-borderSubtle bg-[#050816]/70 backdrop-blur-xl px-6 py-3">
       <div>
         <div claenter gap-3">
         <Button variant="ghost" size="sm">
