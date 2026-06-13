@@ -7,11 +7,8 @@ rout
 
 // POST /api/ai/escalate
 router.post('/escalate', async (req, res) => {
-  const { agentId, ticketId, reason } = r
-  // TODO: Create escalation in Supabase and notify human channel (Slack/Zendesk).
-  console.log('[AI ESCAL]',
-    status: 'open'
-  });
+  const { ag
+        
 });
 
 export default router;
