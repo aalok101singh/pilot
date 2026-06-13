@@ -9,12 +9,7 @@ router.get('/', async (_req, res) => {
   res.json(agents);
 });
 
-// POST /api/agents
-router.post('/', async (req, res) => {
-  const payload = req.body;
-  // TODO: Insert agent into Supabase and trigger initial indexing job.
-  console.log('[AI AGENT CREATE STUB]', payload);
-  res.status(201).json({
+
     ...payload,
     id: `agent-${Date.now()}`,
     status: 'provisioning'
