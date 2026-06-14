@@ -10,12 +10,6 @@ router.get('/', async (_req, res) => {
 });
 
 
-    ...payload,
-    id: `agent-${Date.now()}`,
-    status: 'provisioning'
-  });
-});
-
 // POST /api/agents/:id/test
 router.post('/:id/test', async (req, res) => {
   const { id } = req.params;
