@@ -7,14 +7,7 @@ export interface MetricsResponse {
   activeAgents: number;
 }
 
-export interface Agent {
-  id: string;
-  name: string;
-  role: string;
-  status: 'online' | 'idle' | 'offline';
-  confidenceThreshold: number;
-  coverage: string[];
-  lastActive: string;
+export
 }
 
 export interface MarketplaceAgent {
