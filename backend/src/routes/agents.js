@@ -1,5 +1,3 @@
-import express from 'express';
-import { agents } from '../data/mockData.js';
 
 const router = express.Router();
 
